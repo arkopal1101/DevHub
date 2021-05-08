@@ -43,7 +43,8 @@
         android:paddingRight="10dp"
         android:text=""
         android:textSize="15sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
 
     <Button

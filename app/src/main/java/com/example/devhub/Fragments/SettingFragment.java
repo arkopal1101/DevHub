@@ -217,7 +217,7 @@ public class SettingFragment extends Fragment {
     private void openGallery() {
         try {
             Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);
-            galleryIntent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "images/*");
+            galleryIntent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
 
             startActivityForResult(galleryIntent, REQUEST_CODE);
         } catch (Exception e) {
