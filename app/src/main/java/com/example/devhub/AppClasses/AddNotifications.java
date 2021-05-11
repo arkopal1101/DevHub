@@ -8,7 +8,7 @@ import java.util.Map;
 public class AddNotifications {
     public void generateNotification(String currentLoggedInUser,String actionOfUser,String statusType,String ownerOfPostEmail){
         Map<String,Object> objectMap=new HashMap<>();
-        FirebaseFirestore objectFirebaseFirestore=FirebaseFirestore.getInstance();
+        FirebaseFirestore objectFirebaseFirestore=FirebaseFirestore.getInstance(); //added
 
         objectMap.put("email",currentLoggedInUser);
         objectMap.put("action",actionOfUser);
